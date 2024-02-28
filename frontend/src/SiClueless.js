@@ -49,6 +49,12 @@ const SiClueless = () => {
 
   const getResult = async (e) => {
     e.preventDefault();
+
+    if (Object.keys(formData.selectedKeywords).length === 0) {
+      alert("Kamu harus pilih minimal 1 kata kunci dulu sebelum generate judul");
+      return;
+    }
+
     setLoading(true); // Atur loading menjadi true saat permintaan dikirim
 
     const options = {

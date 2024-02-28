@@ -23,6 +23,13 @@ const SiSadar = () => {
 
     const getResult = async (e) => {
     e.preventDefault();
+
+    const keywordValues = Object.values(formData);
+    if (keywordValues.every(keyword => keyword === "")) {
+        alert("Kamu harus isi minimal 1 kata kunci dulu sebelum generate judul");
+        return;
+    }
+
     setLoading(true); // Atur loading menjadi true saat permintaan dikirim
 
     const options = {
