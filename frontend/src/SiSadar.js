@@ -54,7 +54,7 @@ const SiSadar = () => {
             Buat kamu si sadar, 
             yuk spill minat / kata kunci yang kamu tau
         </h3>
-        <h5>Bingung cara pakai? <Link to="/tentang">Klik Disini</Link> </h5>
+        <h5>Bingung cara pakai? <Link to="/what-n-how">Klik Disini</Link> </h5>
         <div className="row mb-5">
             <div className="col-sm-7 col-md-7 mt-4 mb-5">
                 <div>

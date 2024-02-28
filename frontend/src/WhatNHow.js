@@ -109,7 +109,7 @@ const WhatNHow = () => {
                     <b>IF</b> sudah kepikiran berarti kamu
                     termasuk ke <b>'si-sadar'</b> jadi kamu bisa
                     langsung klik menu <b>Buat yang sadar</b>
-                    atau <b><a href="/sadar.html" style={{ color: '#1D1D1D' }}>klik disini</a></b> biar cepet.
+                    atau <b><Link to="/si-sadar" style={{ color: '#1D1D1D' }}>klik disini</Link></b> biar cepet.
                     </div>
                 </div>
                 </div>
@@ -133,7 +133,7 @@ const WhatNHow = () => {
                     <b>ELSE</b> belum kepikiran apa apa, berarti
                     kamu masuk kategori <b>'si-clueless'</b> jadi
                     kamu bisa langsung klik menu <b>Buat si
-                    clueless</b>  atau <b><a href="/clueless.html" style={{ color: '#1D1D1D' }}>klik disini</a></b> biar cepet.
+                    clueless</b>  atau <b><Link to="/si-clueless" style={{ color: '#1D1D1D' }}>klik disini</Link></b> biar cepet.
                     </div>
                 </div>
                 </div>
@@ -172,7 +172,7 @@ const WhatNHow = () => {
                         <div className="col-1 col-sm-2 col-md-1 d-flex justify-content-md-center">6.</div>
                         <div className="col-10 col-sm-10 col-md-10 p-0">
                         <div className="whatnhow-contentbox">
-                            Kalau kamu ngerasa belum puas sama hasilnya tinggal klik button (....) Trus ulangin langah 4-5
+                            Kalau kamu ngerasa belum puas sama hasilnya tinggal ulangin langah 4-5
                             <br /><br /><br />
                         </div>
                         </div>
@@ -213,8 +213,7 @@ const WhatNHow = () => {
                         <div className="col-1 col-sm-2 col-md-1 d-flex justify-content-md-center">6.</div>
                         <div className="col-10 col-sm-10 col-md-10 p-0">
                         <div className="whatnhow-contentbox">
-                            Kalau kamu ngerasa belum puas sama hasilnya, tinggal klik
-                            button (.....) Trus ulangin langah 4-5. Atau kamu <b>bisa pindah ke 'si-sadar'</b>
+                            Kalau kamu ngerasa belum puas sama hasilnya, tinggal ulangin langah 4-5. Atau kamu <b>bisa pindah ke <Link to="/si-sadar" style={{ color: '#1D1D1D' }}>'si-sadar'</Link></b>
                             kalau tiba-tiba kepikiran beberapa kata kunci
                         </div>
                         </div>

@@ -7,15 +7,15 @@ const leftCategories = [
   //kiri
   {
     name: "Kategori 1",
-    keywords: ["Machine Learning", "Web Development", "Android Development", "Augmanted Reality", "3D Animation", "Game Development"],
+    keywords: ["Software Developement", "Internet of Things", "Cyber Security", "Data Analys", "Network", "ML/AI"],
   },
   {
     name: "Kategori 2",
-    keywords: ["Machine Learning", "Web Development", "Android Development", "Augmanted Reality", "3D Animation", "Game Development"],
+    keywords: ["Cryptography", "Block Chain", "Testing Method", "Search Engine Optimization", "Big Data", "Cloud Security"],
   },
   {
     name: "Kategori 3",
-    keywords: ["Machine Learning", "Web Development", "Android Development", "Augmanted Reality", "3D Animation", "Game Development"],
+    keywords: ["Unity", "blender", "Tableau", "Wireshark", "TensorFlow", "Arduino IDE"],
   },
 ];
 
@@ -23,15 +23,15 @@ const rightCategories = [
   //kanan
   {
     name: "Kategori 4",
-    keywords: ["RMachine Learning", "Web Development", "Android Development", "Augmanted Reality", "3D Animation", "Game Development"],
+    keywords: ["Phyton", "Node js", "R", "C", "Java", "PHP"],
   },
   {
     name: "Kategori 5",
-    keywords: ["Machine Learning", "RWeb Development", "Android Development", "Augmanted Reality", "3D Animation", "Game Development"],
+    keywords: ["Automation", "Smart Home", "Game", "AR/VR", "Chatbot", "Virtual Assistant"],
   },
   {
     name: "Kategori 6",
-    keywords: ["Machine Learning", "Web Development", "RAndroid Development", "Augmanted Reality", "3D Animation", "Game Development"],
+    keywords: ["E-Learning", "E-Commerce", "E-Goverment", "E-Library", "E-Consultation", "Point of Sale (Kasir)"],
   },
 ];
 
@@ -90,7 +90,7 @@ const SiClueless = () => {
         pilih salah satu dari kata kunci di bawah ya!
       </h3>
       <h5>
-        Bingung cara pakai? <Link to="/tentang">Klik Disini</Link>{" "}
+        Bingung cara pakai? <Link to="/what-n-how">Klik Disini</Link>{" "}
       </h5>
       <div className="">
         <div className="row">
