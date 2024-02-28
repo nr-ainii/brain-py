@@ -11,7 +11,7 @@ const leftCategories = [
   },
   {
     name: "Kategori 2",
-    keywords: ["Cryptography", "Block Chain", "Testing Method", "Search Engine Optimization", "Big Data", "Cloud Security"],
+    keywords: ["Cryptography", "Block Chain", "Testing Method", "SEO", "Big Data", "Cloud Security"],
   },
   {
     name: "Kategori 3",

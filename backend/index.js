@@ -37,7 +37,7 @@ app.post("/completions", async (req, res) => {
         },
       ],
       // max_tokens: 3000,
-      max_tokens: 10,
+      max_tokens: 1000,
     }),
   };
   try {
