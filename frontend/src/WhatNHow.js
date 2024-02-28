@@ -2,6 +2,7 @@ import React from 'react';
 import heroSection from "./images/herosection-tentang.svg";
 import wave from "./images/wave.svg";
 import flowchart from "./images/Group 113.svg";
+import { Link } from "react-router-dom";
 
 const WhatNHow = () => {
     return (
